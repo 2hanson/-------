@@ -1,3 +1,4 @@
 http://www.linuxfoundation.org/collaborate/workgroups/networking/ipsec-overview#4199  (IPsec overview)
 https://lkml.org/lkml/2013/2/7/118  (about XFRM policies mark and mask)
 http://www.croz.net/eng/xfrm-programming/ (example for xfrm_policy_add)
+http://lwn.net/Articles/375829/ (about xfrm mark)
