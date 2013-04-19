@@ -1,18 +1,16 @@
 1.在Linux2.6内核中自带了xfrm的实现,2.4是通过打补丁来实现          2013.4.16
 
 
-
-
-
-
-
-
-
-
-
 2.track:
   a. 系统中多个policy共存
   b. policy的优先级问题
   c. 所有的policy应该都用一个链表维护着
      他们是按照优先级排序？
      不设置优先级的时候的默认值是多少？
+  d. net结构体
+
+
+3. progress
+  a. tunnel       done
+  b. ctrl         done
+  c. xfrm         ing       key point: struct net
