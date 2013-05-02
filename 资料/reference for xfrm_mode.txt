@@ -1,0 +1,18 @@
+xfrm mode:
+1.transport		IPsec transport mode（用户的整个IP数据包被用来计算AH或ESP头，
+		AH或ESP头以及ESP加密的用户数据被封装在一个新的IP数据包中。通常，隧道模式应用在两个安全网关之间的通讯）
+
+2.tunnel		IPsec tunnel mode（只是传输层数据被用来计算AH或ESP头，AH或ESP头以及ESP加密的用户数据被放置在原IP包头
+		后面。通常，传输模式应用在两台主机之间的通讯，或一台主机和一个安全网关之间的通讯。）
+
+3.beet		IPsec ESP Bound End-to-End Tunnel Mode（通过beet mode的SA（包括地址映射信息等内容），主要是用于节约
+		空间（space savings），我认为等于是一种对包头的压缩）
+
+
+4.ro		Mobile IPv6 route optimization  mode
+5.in_trigger		Mobile IPv6 inbound trigger mode 
+
+
+
+
+
